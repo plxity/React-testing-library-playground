@@ -7,6 +7,7 @@ it('Should render correct texts in header', () => {
   expect(headingElement).toBeInTheDocument();
 });
 
+// Different methods to explore React testing library
 
 it('Should render correct texts in header', () => {
   render(<Header title="my header"/>);
